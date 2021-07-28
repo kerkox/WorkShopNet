@@ -23,7 +23,7 @@ namespace WorkShopNet.App
 
 
 
-    static List<string> ValidateStringRegex(string id)
+    public static List<string> ValidateStringRegex(string id)
     {
       List<string> listErrors = new List<string>();
       var regexLenghtMin = new Regex(@"^[A-z 0-9]{0,4}$");
@@ -51,7 +51,7 @@ namespace WorkShopNet.App
       }
       return listErrors;
     }
-    static List<string> ValidateStringIf(string id)
+    public static List<string> ValidateStringIf(string id)
     {
       List<string> listErrors = new List<string>();
       if (String.IsNullOrEmpty(id))
@@ -75,7 +75,7 @@ namespace WorkShopNet.App
       }
       return listErrors;
     }
-    static List<string> ValidateStringExceptions(string id)
+    public static List<string> ValidateStringExceptions(string id)
     {
       List<string> listErrors = new List<string>();
       try

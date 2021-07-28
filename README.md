@@ -26,3 +26,15 @@ average and total processor and memory consumption by each method
 
 Show execution times and memory / processor information for each method in console.
 {"mode":"full","isActive":false}
+
+
+## Sonarqbe Analysis
+
+comands
+
+```
+dotnet sonarscanner begin /k:"WorkShopNet" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="[TOKEN]" 
+dotnet build 
+dotnet test 
+dotnet sonarscanner end /d:sonar.login="[TOKEN]" 
+```
