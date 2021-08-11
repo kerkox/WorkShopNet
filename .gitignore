@@ -23,7 +23,7 @@ bld/
 
 # Sonarqube Configuration
 .sonarqube
-.sonarqube/
+.sonarqube/*.*
 
 # Visual Studio 2015 cache/options directory
 .vs/
