@@ -31,7 +31,6 @@ Show execution times and memory / processor information for each method in conso
 ## Sonarqbe Analysis
 
 comands
-
 ```
 dotnet sonarscanner begin /k:"WorkShopNet" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="[TOKEN]" 
 dotnet build 

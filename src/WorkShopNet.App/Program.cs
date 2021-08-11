@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 namespace WorkShopNet.App
 {
 
-  public class App
+  public class Validator
   {
 
     static string id_1 = null;
